@@ -19,7 +19,8 @@ const app = express();
 //                 // methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
 //             }));
 app.use(cors({
-    origin: 'http://localhost:5173', // Your React app URL
+    origin: 'http://localhost:5173', // Your React app URL  
+    origin: 'https://estate-client-ym15.onrender.com', 
     credentials: true // Allow credentials
     }));
 app.use(express.json());
