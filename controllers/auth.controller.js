@@ -61,7 +61,7 @@ export const login = async(req, res) => {
             secure:true,//for production true
             maxAge: age,
             withCredentials: true,
-            // sameSite: "none",
+            sameSite: "none",
         }
         )
       .status(200)
